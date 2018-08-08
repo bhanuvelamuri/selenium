@@ -17,9 +17,9 @@ public class scope {
 		System.out.println(driver.findElements(By.tagName("a")).size());//1. LINKS COUNT OF WHOLE WEBSITE
 		WebElement d= driver.findElement(By.id("gf-BIG"));
 		System.out.println(d.findElements(By.tagName("a")).size());//2. LINKS COUNT OF FOOTER 
-		d.findElement(By.xpath("//tr//td[1]//ul[1]"));
-		WebElement c= d.findElement(By.xpath("//tr//td[1]//ul[1]"));//3. CHECKING IN COLUMN
-		System.out.println(c.findElements(By.tagName("a")).size());
+		d.findElement(By.xpath("]/table/tbody/tr/td[1]/ul"));
+		WebElement c= d.findElement(By.xpath("//tr//td[1]//ul[1]"));
+		System.out.println(c.findElements(By.tagName("a")));
 		
 		
 		
