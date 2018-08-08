@@ -1,4 +1,4 @@
-# selenium
+# Selenium Automation
 Learning and Practice on Selenium Automation using Java
 
 Tools used
