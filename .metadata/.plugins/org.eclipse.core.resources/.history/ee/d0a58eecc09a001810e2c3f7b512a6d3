@@ -21,10 +21,10 @@ public class calender {
 			driver.findElement(By.xpath("//div[@class='datepicker-days']//th[@class='next']")).click();
 		
 		}
-		/*while(!driver.findElement(By.xpath("//div[@class='datepicker-months']//th[@class='datepicker-switch']")).getText().contains("2020"))
+		while(!driver.findElement(By.xpath("//div[@class='datepicker-months']//th[@class='datepicker-switch']")).getText().contains("2020"))
 		{
 			driver.findElement(By.xpath("//div[@class='datepicker-months']//th[@class='next']")).click();
-		}*/
+		}
 		
 		List<WebElement> dates= driver.findElements(By.className("day"));
 		int count=driver.findElements(By.className("day")).size();
