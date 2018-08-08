@@ -1,0 +1,23 @@
+package introduction;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//selenium code
+		//create driver object for chrome browser
+		// we will strictly implement meathods of webdriver
+	/*	Class name= ChromeDriver,
+				X driver=new X();*/
+		//invoke .exe file first
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		WebDriver  driver=new ChromeDriver();
+		driver.get("http://google.com");
+		System.out.println(driver.getTitle());
+		
+		
+	}
+
+}

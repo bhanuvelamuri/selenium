@@ -1,0 +1,20 @@
+package practise;
+
+public class basics2 {
+
+public void validateHeader(){
+		
+		System.out.println("header links validater");
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

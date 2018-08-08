@@ -1,0 +1,23 @@
+package practise;
+
+public class basics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("hi"); //prints output
+	
+		//adding two numbers
+		
+		int a=2, b=3, c;
+		System.out.println("c="+ a+b);
+		
+		//adding two numbers
+		
+		
+		
+		
+		
+	}
+
+}

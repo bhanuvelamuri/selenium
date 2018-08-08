@@ -1,0 +1,27 @@
+package practise;
+
+public class basics2 {
+
+public int validateHeader(){
+		
+		System.out.println("header links validater");
+		return 3;
+		
+		
+
+
+
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
