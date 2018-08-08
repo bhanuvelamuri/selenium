@@ -36,7 +36,7 @@ public class scope {
 			while(it.hasNext())
 			{
 				driver.switchTo().window(it.next());
-				System.out.println(driver.getTitle());//5. GETTING THE TITLE FOR EACH TAB
+				System.out.println(driver.getTitle());
 			}
 		
 			

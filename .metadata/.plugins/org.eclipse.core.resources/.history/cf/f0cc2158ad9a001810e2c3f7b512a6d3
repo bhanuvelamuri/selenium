@@ -29,18 +29,16 @@ public class scope {
 			String keycontrol=Keys.chord(Keys.CONTROL, Keys.ENTER);
 			c.findElements(By.tagName("a")).get(i).sendKeys(keycontrol);
 			Thread.sleep(5000L);
-		}	
+			
 			Set<String>ids=driver.getWindowHandles();
 			Iterator<String> it=ids.iterator();
-		
 			while(it.hasNext())
 			{
-				driver.switchTo().window(it.next());
-				System.out.println(driver.getTitle());//5. GETTING THE TITLE FOR EACH TAB
+				it.next();
+				System.out.println(it);
 			}
-		
 			
-		
+		}
 		
 		
 	}
