@@ -1,5 +1,5 @@
 # Selenium Automation
-Learning and Practice on Selenium Automation using Java
+Learning and Practice on Selenium Automation testing using Java language
 
 Tools used
 
