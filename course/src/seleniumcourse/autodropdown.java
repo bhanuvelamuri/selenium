@@ -18,14 +18,6 @@ public class autodropdown {
 		driver.findElement(By.xpath("//input[@id='fromPlaceName']")).sendKeys(Keys.DOWN);
 		System.out.println(driver.findElement(By.xpath("//input[@id='fromPlaceName']")).getText());
 		
-		
-			
-		
-		/*if(int i=0;i<count;i++)
-		{
-			int count=driver.findElements(By.xpath("//input[@id='fromPlaceName'])")).size();
-			
-		}*/
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		String script = "return document.getElementById(\"fromPlaceName\").value;";
 		String text=(String)js.executeScript(script);
