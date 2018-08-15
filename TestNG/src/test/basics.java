@@ -9,5 +9,9 @@ public class basics {
 		System.out.println("hello world");
 
 	}
+	@Test
+	public void Test() {
+		System.out.print("bye");
+	}
 
 }
