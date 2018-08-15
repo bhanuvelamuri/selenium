@@ -4,10 +4,15 @@ import org.testng.annotations.Test;
 
 public class basics2 {
 	@Test
-	public void day2() {
+	public void day() {
 		System.out.println("good");
 		
 	}
-
+	@Test
+	public void day1() {
+		System.out.println("bad");
+		
+	}
+	
 
 }

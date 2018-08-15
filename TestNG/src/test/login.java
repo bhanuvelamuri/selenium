@@ -1,5 +1,7 @@
 package test;
 
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -35,4 +37,18 @@ public void Webprerequisite() {
 	//selenium
 	System.out.println("before login testing");
 }
+@BeforeSuite
+public void prerequisitebeforesuite()
+{
+	System.out.println("before suite");
+	
+	}
+@AfterSuite
+public void prerequisiteaftersuite()
+{
+	System.out.println("after suite");
+	
+	}
+	
 }
+
