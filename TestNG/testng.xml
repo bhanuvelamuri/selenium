@@ -19,7 +19,7 @@
     <classes>
       <class name="test.login">
       <methods>
-      	<exclude name="WebLoginhome"/>
+      	<exclude name="API.*"/>	<!-- <exclude name="WebLoginhome"/>  -->
       </methods>
       </class>
     </classes>
