@@ -7,7 +7,6 @@ public class basics {
 	public void Demo() {
 		// TODO Auto-generated method stub
 		System.out.println("hello world");
-
 	}
 	@Test
 	public void Test() {
