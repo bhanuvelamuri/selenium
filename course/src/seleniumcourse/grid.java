@@ -13,13 +13,13 @@ public class grid {
 	public static void main(String[] args) throws MalformedURLException {
 		// TODO Auto-generated method stub
 		DesiredCapabilities dc= new DesiredCapabilities();
-		dc.setBrowserName("Chrome");
+		dc.setBrowserName("chrome");
 		dc.setPlatform(Platform.WINDOWS);
 		//dc.setVersion(IE9);
 		//dc.setPlatform(Platform.MAC);
 		//WebDriver driver = new ChromeDriver();
 		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"),dc);
-		driver.get("http://rediff.com");
+		driver.get("http://google.com");
 		
 		
 	}
