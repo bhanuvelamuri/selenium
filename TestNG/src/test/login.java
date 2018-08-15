@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class login {
-@Test
+@Test(enabled=true)
 public void WebLoginhome() {
 	//selenium
 	System.out.println("WEBLOGIN");
@@ -27,7 +27,7 @@ public void MobileLogin() {
 	System.out.println("APPIUM");
 }
 
-@Test
+@Test(dependsOnMethods= {"WebLoginhome","WebSignouthome"})
 public void APIRest() {
 	//Rest API
 	System.out.println("API");

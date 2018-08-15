@@ -35,7 +35,7 @@ public class basics {
 		// TODO Auto-generated method stub
 		System.out.println("hello world");
 	}
-	@Test
+	@Test(timeOut=4000)
 	public void Demo1() {
 		// TODO Auto-generated method stub
 		System.out.println(" world");
