@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class login {
@@ -12,7 +13,8 @@ public void WebLoginhome() {
 public void WebSigninhome() {
 	//selenium
 	System.out.println("Signin");
-}@Test
+}
+@Test
 public void WebSignouthome() {
 	//selenium
 	System.out.println("Signout");
@@ -27,5 +29,10 @@ public void MobileLogin() {
 public void APIRest() {
 	//Rest API
 	System.out.println("API");
+}
+@BeforeTest
+public void Webprerequisite() {
+	//selenium
+	System.out.println("before login testing");
 }
 }
