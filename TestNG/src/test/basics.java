@@ -30,7 +30,7 @@ public class basics {
 		
 	}
 
-	@Test
+	@Test(groups= {"Smoke"})
 	public void Demo() {
 		// TODO Auto-generated method stub
 		System.out.println("hello world");

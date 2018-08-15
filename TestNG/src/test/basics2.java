@@ -8,7 +8,7 @@ public class basics2 {
 		System.out.println("good");
 		
 	}
-	@Test
+	@Test(groups= {"Smoke"})
 	public void day1() {
 		System.out.println("bad");
 		

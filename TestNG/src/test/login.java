@@ -11,7 +11,7 @@ public void WebLoginhome() {
 	//selenium
 	System.out.println("WEBLOGIN");
 }
-@Test
+@Test(groups= {"Smoke"})
 public void WebSigninhome() {
 	//selenium
 	System.out.println("Signin");
@@ -21,7 +21,7 @@ public void WebSignouthome() {
 	//selenium
 	System.out.println("Signout");
 }
-@Test
+@Test(groups= {"Smoke"})
 public void MobileLogin() {
 	//appium
 	System.out.println("APPIUM");

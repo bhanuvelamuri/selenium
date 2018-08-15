@@ -1,97 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="5" total="9" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan project" duration-ms="77" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
+  <suite name="Loan project" duration-ms="59" started-at="2018-08-15T20:10:41Z" finished-at="2018-08-15T20:10:41Z">
     <groups>
+      <group name="Smoke">
+        <method signature="basics.Demo()[pri:0, instance:test.basics@16905e]" name="Demo" class="test.basics"/>
+        <method signature="basics2.day1()[pri:0, instance:test.basics2@e2cbe0]" name="day1" class="test.basics2"/>
+        <method signature="login.MobileLogin()[pri:0, instance:test.login@be2bc2]" name="MobileLogin" class="test.login"/>
+        <method signature="login.WebSigninhome()[pri:0, instance:test.login@be2bc2]" name="WebSigninhome" class="test.login"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="personal loan" duration-ms="77" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
+    <test name="Regression" duration-ms="59" started-at="2018-08-15T20:10:41Z" finished-at="2018-08-15T20:10:41Z">
       <class name="test.basics">
-        <test-method status="PASS" signature="Webprerequisite()[pri:0, instance:test.login@1604f19]" name="Webprerequisite" is-config="true" duration-ms="1" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Webprerequisite -->
-        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.basics@23a2f9]" name="prerequisite" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisite -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:test.basics@23a2f9]" name="beforeclass" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="Demo()[pri:0, instance:test.basics@23a2f9]" name="Demo" duration-ms="5" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.basics@16905e]" name="Demo" duration-ms="12" started-at="2018-08-15T20:10:41Z" finished-at="2018-08-15T20:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="prerequisitebeforemethod()[pri:0, instance:test.basics@23a2f9]" name="prerequisitebeforemethod" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisitebeforemethod -->
-        <test-method status="PASS" signature="prerequisiteaftermethod()[pri:0, instance:test.basics@23a2f9]" name="prerequisiteaftermethod" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisiteaftermethod -->
-        <test-method status="PASS" signature="prerequisitebeforemethod()[pri:0, instance:test.basics@23a2f9]" name="prerequisitebeforemethod" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisitebeforemethod -->
-        <test-method status="PASS" signature="Demo1()[pri:0, instance:test.basics@23a2f9]" name="Demo1" duration-ms="3" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo1 -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:test.basics@23a2f9]" name="afterclass" is-config="true" duration-ms="1" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method status="PASS" signature="prerequisiteaftermethod()[pri:0, instance:test.basics@23a2f9]" name="prerequisiteaftermethod" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisiteaftermethod -->
-        <test-method status="PASS" signature="postrequisite()[pri:0, instance:test.basics@23a2f9]" name="postrequisite" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postrequisite -->
       </class> <!-- test.basics -->
       <class name="test.login">
-        <test-method status="PASS" signature="prerequisitebeforesuite()[pri:0, instance:test.login@1604f19]" name="prerequisitebeforesuite" is-config="true" duration-ms="14" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisitebeforesuite -->
-        <test-method status="PASS" signature="APIRest()[pri:0, instance:test.login@1604f19]" name="APIRest" duration-ms="1" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APIRest -->
-        <test-method status="PASS" signature="MobileLogin()[pri:0, instance:test.login@1604f19]" name="MobileLogin" duration-ms="1" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
+        <test-method status="PASS" signature="MobileLogin()[pri:0, instance:test.login@be2bc2]" name="MobileLogin" duration-ms="2" started-at="2018-08-15T20:10:41Z" finished-at="2018-08-15T20:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLogin -->
-        <test-method status="PASS" signature="WebLoginhome()[pri:0, instance:test.login@1604f19]" name="WebLoginhome" duration-ms="2" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginhome -->
-        <test-method status="PASS" signature="WebSigninhome()[pri:0, instance:test.login@1604f19]" name="WebSigninhome" duration-ms="1" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
+        <test-method status="PASS" signature="WebSigninhome()[pri:0, instance:test.login@be2bc2]" name="WebSigninhome" duration-ms="2" started-at="2018-08-15T20:10:41Z" finished-at="2018-08-15T20:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebSigninhome -->
-        <test-method status="PASS" signature="WebSignouthome()[pri:0, instance:test.login@1604f19]" name="WebSignouthome" duration-ms="1" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebSignouthome -->
-        <test-method status="PASS" signature="prerequisiteaftersuite()[pri:0, instance:test.login@1604f19]" name="prerequisiteaftersuite" is-config="true" duration-ms="0" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisiteaftersuite -->
       </class> <!-- test.login -->
       <class name="test.basics2">
-        <test-method status="PASS" signature="day()[pri:0, instance:test.basics2@c0edeb]" name="day" duration-ms="2" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- day -->
-        <test-method status="PASS" signature="day1()[pri:0, instance:test.basics2@c0edeb]" name="day1" duration-ms="2" started-at="2018-08-15T20:01:33Z" finished-at="2018-08-15T20:01:33Z">
+        <test-method status="PASS" signature="day1()[pri:0, instance:test.basics2@e2cbe0]" name="day1" duration-ms="1" started-at="2018-08-15T20:10:41Z" finished-at="2018-08-15T20:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- day1 -->
       </class> <!-- test.basics2 -->
-    </test> <!-- personal loan -->
+    </test> <!-- Regression -->
   </suite> <!-- Loan project -->
 </testng-results>

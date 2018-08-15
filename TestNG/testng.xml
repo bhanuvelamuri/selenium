@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan project">
- <test thread-count="5" name="personal loan">
+ <!--  <test thread-count="5" name="personal loan">
     <classes>
       <class name="test.basics"/>
       <class name="test.login">
@@ -14,14 +14,27 @@
     <classes>
       <class name="test.basics2"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
   <test thread-count="5" name="Home loan">
     <classes>
       <class name="test.login">
       <methods>
-      	<exclude name="API.*"/>	<!-- <exclude name="WebLoginhome"/>  -->
+      	<exclude name="API.*"/>
+      	<exclude name="WebLoginhome"/> 
       </methods>
       </class>
     </classes>
-  </test> <!-- Test --> 
+  </test>-->
+  <test name="Regression">
+  <groups>
+  <run>
+  <include name="Smoke"/></run>
+  </groups>
+  <classes>
+  		<class name="test.basics"/>
+  		<class name="test.basics2"/>
+  		<class name="test.login"/>
+  
+  </classes>
+  </test>
 </suite> <!-- Suite -->
