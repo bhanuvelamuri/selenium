@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan project]">
-  <listeners>
-    <listener class-name="test.listeners"/>
-  </listeners>
-  <test thread-count="5" name="Car loan(failed)">
-    <parameter name="APIKey/usrname" value="12345"/>
-    <parameter name="password" value="pass99**SS"/>
-    <parameter name="URL" value="paraloan.com"/>
-    <parameter name="username" value="bhanu"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.parameters">
+      <class name="testingfiles.dependency">
         <methods>
-          <include name="users1"/>
+          <include name="OpeningBrowser"/>
+          <include name="Login"/>
+          <include name="uninstallsoftware"/>
         </methods>
-      </class> <!-- test.parameters -->
+      </class> <!-- testingfiles.dependency -->
     </classes>
-  </test> <!-- Car loan(failed) -->
-</suite> <!-- Failed suite [Loan project] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

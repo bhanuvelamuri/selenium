@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.listeners">
+      <class name="testingfiles.dependency">
         <methods>
-          <include name="onTestSuccess"/>
+          <include name="OpeningBrowser"/>
+          <include name="Login"/>
+          <include name="uninstallsoftware"/>
         </methods>
-      </class> <!-- test.listeners -->
+      </class> <!-- testingfiles.dependency -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

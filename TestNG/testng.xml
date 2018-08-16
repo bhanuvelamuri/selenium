@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Loan project">
- <!--<test thread-count="5" name="personal loan">
+<suite name="Loan project" parallel="tests" thread-count="6">
+ <test thread-count="5" name="personal loan">
     <classes>
       <class name="test.basics"/>
       <class name="test.login">
@@ -44,12 +44,12 @@
   		<class name="test.login"/>
   
   </classes>
-  </test> -->
+  </test>
   <listeners>
   <listener class-name="test.listeners"></listener>
   </listeners>
   
-   <test name="Car loan">
+   <test name=" loan">
    
    <parameter name="username" value="bhanu"/>
    <parameter name="password" value="pass99**SS"/>

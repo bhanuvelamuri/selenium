@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan project]">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Loan project]" parallel="tests">
   <listeners>
     <listener class-name="test.listeners"/>
   </listeners>
-  <test thread-count="5" name="Car loan(failed)">
+  <test thread-count="6" name="para loan(failed)" parallel="tests">
+    <parameter name="APIKey/usrname" value="12345"/>
+    <parameter name="URL" value="paraloan.com"/>
+    <classes>
+      <class name="test.parameters">
+        <methods>
+          <include name="users1"/>
+        </methods>
+      </class> <!-- test.parameters -->
+    </classes>
+  </test> <!-- para loan(failed) -->
+  <test thread-count="6" name=" loan(failed)" parallel="tests">
     <parameter name="APIKey/usrname" value="12345"/>
     <parameter name="password" value="pass99**SS"/>
     <parameter name="URL" value="paraloan.com"/>
@@ -16,5 +27,5 @@
         </methods>
       </class> <!-- test.parameters -->
     </classes>
-  </test> <!-- Car loan(failed) -->
+  </test> <!--  loan(failed) -->
 </suite> <!-- Failed suite [Loan project] -->

@@ -1,23 +1,9 @@
 INDEX VERSION 1.131+C:\bhanu\selenium course\selenium\.metadata\.plugins\org.eclipse.jdt.core
 2668241452.index
-3655349076.index
 1859055020.index
-3729101479.index
 1434871025.index
-3256728048.index
-1643346978.index
-2681623465.index
 1526346047.index
 2195442929.index
-859098690.index
-3364961162.index
 2434423441.index
-2564919503.index
 2595655283.index
-174660417.index
-333748007.index
 1592621989.index
-2489930183.index
-1159367114.index
-3165480659.index
-1866488061.index
