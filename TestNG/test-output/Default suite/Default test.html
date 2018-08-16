@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 16 04:02:52 ADT 2018</td>
+<td>Started on:</td><td>Thu Aug 16 14:28:59 ADT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (113 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (38 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.parameters.Website()'><b>Website</b><br>Test class: test.parameters</td>
+<td title='test.listeners.onTestSuccess()'><b>onTestSuccess</b><br>Test class: test.listeners</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;URL&apos; is required by @Test on method Website but has not been marked @Optional or defined
-in C:\Users\bhanu\AppData\Local\Temp\testng-eclipse-1613695629\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+Cannot inject @Test annotated Method [onTestSuccess] with [interface org.testng.ITestResult].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
 	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
 	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
@@ -103,13 +103,13 @@ in C:\Users\bhanu\AppData\Local\Temp\testng-eclipse-1613695629\testng-customsuit
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace32414089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace32414089'><pre>org.testng.TestNGException: 
-Parameter &apos;URL&apos; is required by @Test on method Website but has not been marked @Optional or defined
-in C:\Users\bhanu\AppData\Local\Temp\testng-eclipse-1613695629\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+</pre></div><a href='#' onClick='toggleBox("stack-trace16834438", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16834438'><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [onTestSuccess] with [interface org.testng.ITestResult].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
 	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
 	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
@@ -133,30 +133,7 @@ in C:\Users\bhanu\AppData\Local\Temp\testng-eclipse-1613695629\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test.parameters@f5e5e3</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='test.parameters.users()'><b>users</b><br>Test class: test.parameters<br>Parameters: firstusername, password</td>
-<td></td>
-<td>0</td>
-<td>test.parameters@f5e5e3</td></tr>
-<tr>
-<td title='test.parameters.users()'><b>users</b><br>Test class: test.parameters<br>Parameters: secondusername, password</td>
-<td></td>
-<td>0</td>
-<td>test.parameters@f5e5e3</td></tr>
-<tr>
-<td title='test.parameters.users()'><b>users</b><br>Test class: test.parameters<br>Parameters: secoondusername, password</td>
-<td></td>
-<td>0</td>
-<td>test.parameters@f5e5e3</td></tr>
+<td>test.listeners@fc185</td></tr>
 </table><p>
 </body>
 </html>

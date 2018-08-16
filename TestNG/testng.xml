@@ -45,12 +45,16 @@
   
   </classes>
   </test> -->
-   <test thread-count="5" name="Car loan">
+  <listeners>
+  <listener class-name="test.listeners"></listener>
+  </listeners>
+  
+   <test name="Car loan">
    
-   <parameter name="URL" value="paraloan.com"/>
-   <parameter name="APIKey/usrname" value="12345"/>
    <parameter name="username" value="bhanu"/>
    <parameter name="password" value="pass99**SS"/>
+   <parameter name="URL" value="paraloan.com"/>
+   <parameter name="APIKey/usrname" value="12345"/>
     <classes>
       <class name="test.parameters"/>
     </classes>

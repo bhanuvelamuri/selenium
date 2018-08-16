@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Loan_project">
-              <span class="suite-name border-passed">Loan project</span>
+              <span class="suite-name border-failed">Loan project</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Loan_project" class="hide-methods failed suite-Loan_project"> (hide)</a> <!-- hide-methods failed suite-Loan_project -->
+                      <a href="#" panel-name="suite-Loan_project" class="show-methods failed suite-Loan_project"> (show)</a> <!-- show-methods failed suite-Loan_project -->
+                    </span>
+                    <div class="method-list-content failed suite-Loan_project">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users1">users1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Loan_project -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +116,22 @@
                     <div class="method-list-content passed suite-Loan_project">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="Website(paraloan.com, 12345)">Website(paraloan.com, 12345)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="WebsiteCarLoan(paraloan.com, 12345)">WebsiteCarLoan(paraloan.com, 12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users(secondusername, password)">users(secondusername, password)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users(first username, password)">users(first username, password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users(secoondusername, password)">users(secoondusername, password)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users(second username, password)">users(second username, password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users(firstusername, password)">users(firstusername, password)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_project" title="test.parameters" hash-for-method="users(third username, password)">users(third username, password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Loan_project -->
@@ -132,6 +146,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Loan_project" class="panel Loan_project">
+          <div class="suite-Loan_project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.parameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="users1">
+                  </a> <!-- users1 -->
+                  <span class="method-name">users1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test.parameters.users1(parameters.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_project-class-failed -->
           <div class="suite-Loan_project-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -140,34 +173,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Website(paraloan.com, 12345)">
-                  </a> <!-- Website(paraloan.com, 12345) -->
-                  <span class="method-name">Website</span>
+                  <a name="WebsiteCarLoan(paraloan.com, 12345)">
+                  </a> <!-- WebsiteCarLoan(paraloan.com, 12345) -->
+                  <span class="method-name">WebsiteCarLoan</span>
                   <span class="parameters">(paraloan.com, 12345)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="users(secondusername, password)">
-                  </a> <!-- users(secondusername, password) -->
+                  <a name="users(first username, password)">
+                  </a> <!-- users(first username, password) -->
                   <span class="method-name">users</span>
-                  <span class="parameters">(secondusername, password)</span>
+                  <span class="parameters">(first username, password)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="users(secoondusername, password)">
-                  </a> <!-- users(secoondusername, password) -->
+                  <a name="users(second username, password)">
+                  </a> <!-- users(second username, password) -->
                   <span class="method-name">users</span>
-                  <span class="parameters">(secoondusername, password)</span>
+                  <span class="parameters">(second username, password)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="users(firstusername, password)">
-                  </a> <!-- users(firstusername, password) -->
+                  <a name="users(third username, password)">
+                  </a> <!-- users(third username, password) -->
                   <span class="method-name">users</span>
-                  <span class="parameters">(firstusername, password)</span>
+                  <span class="parameters">(third username, password)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -182,6 +215,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Loan project&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;test.listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Car loan&quot;&gt;
     &lt;parameter name=&quot;APIKey/usrname&quot; value=&quot;12345&quot;/&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;pass99**SS&quot;/&gt;
@@ -228,28 +264,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Website')
+data.setCell(0, 1, 'users1')
 data.setCell(0, 2, 'test.parameters')
-data.setCell(0, 3, 13);
+data.setCell(0, 3, 104);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'users')
+data.setCell(1, 1, 'WebsiteCarLoan')
 data.setCell(1, 2, 'test.parameters')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 15);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'users')
 data.setCell(2, 2, 'test.parameters')
-data.setCell(2, 3, 2);
+data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'users')
 data.setCell(3, 2, 'test.parameters')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'users')
+data.setCell(4, 2, 'test.parameters')
+data.setCell(4, 3, 1);
 window.suiteTableData['Loan_project']= { tableData: data, tableDiv: 'times-div-Loan_project'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 ms</span>
+              <span class="suite-total-time">Total running time: 125 ms</span>
               <div id="times-div-Loan_project">
               </div> <!-- times-div-Loan_project -->
             </div> <!-- times-div -->
@@ -277,20 +317,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.parameters</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Website(paraloan.com, 12345)</span>
+                <span class="method-name">WebsiteCarLoan(paraloan.com, 12345)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">users(firstusername, password)</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-name">users(first username, password)</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">users(secondusername, password)</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-name">users(second username, password)</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">users(secoondusername, password)</span>
-                <span class="method-start">30 ms</span>
+                <span class="method-name">users(third username, password)</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">users1</span>
+                <span class="method-start">42 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

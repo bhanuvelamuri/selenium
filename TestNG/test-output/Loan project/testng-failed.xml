@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Loan project]">
+  <listeners>
+    <listener class-name="test.listeners"/>
+  </listeners>
   <test thread-count="5" name="Car loan(failed)">
     <parameter name="APIKey/usrname" value="12345"/>
     <parameter name="password" value="pass99**SS"/>
@@ -9,7 +12,7 @@
     <classes>
       <class name="test.parameters">
         <methods>
-          <include name="users"/>
+          <include name="users1"/>
         </methods>
       </class> <!-- test.parameters -->
     </classes>

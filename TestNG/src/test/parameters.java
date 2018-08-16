@@ -1,16 +1,17 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 public class parameters {
-
-@Parameters({"URL","APIKey/usrname"})
+private static final boolean False = false;
 @Test
-public void Website(String carloan, String key) 
+@Parameters({"URL","APIKey/usrname"})
+public void WebsiteCarLoan(String urlname, String key) 
 {
 	//selenium
-	System.out.println(carloan);
+	System.out.println(urlname);
 	System.out.println(key);
 }
 @Test(dataProvider="getData")
@@ -39,7 +40,11 @@ public Object[][] getData() {
 	return data;
 	
 }
-
+@Test
+public void users1() {
+	System.out.println("fail case");
+	Assert.assertTrue(False);
+}
 
 }
  
