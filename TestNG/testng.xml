@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan project">
- <test thread-count="5" name="personal loan">
+ <!--<test thread-count="5" name="personal loan">
     <classes>
       <class name="test.basics"/>
       <class name="test.login">
@@ -30,7 +30,7 @@
       <class name="test.parameters"/>
     </classes>
   </test>
-<!--  <test name="Regression">
+  <test name="Regression">
   <groups>
   <run>
   <include name="Smoke"/> <exclude name="Smoke"/> 
@@ -45,4 +45,14 @@
   
   </classes>
   </test> -->
+   <test thread-count="5" name="Car loan">
+   
+   <parameter name="URL" value="paraloan.com"/>
+   <parameter name="APIKey/usrname" value="12345"/>
+   <parameter name="username" value="bhanu"/>
+   <parameter name="password" value="pass99**SS"/>
+    <classes>
+      <class name="test.parameters"/>
+    </classes>
+  </test>
 </suite> 
