@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan project">
- <!--  <test thread-count="5" name="personal loan">
+ <test thread-count="5" name="personal loan">
     <classes>
       <class name="test.basics"/>
       <class name="test.login">
@@ -11,31 +11,38 @@
     </classes>
   </test>
   <test thread-count="5" name="Car loan">
+  
+   <parameter name="URL" value="qaclickacademy.com"/>
     <classes>
       <class name="test.basics2"/>
     </classes>
   </test>
   <test thread-count="5" name="Home loan">
     <classes>
-      <class name="test.login">
-      <methods>
-      	<exclude name="API.*"/>
-      	<exclude name="WebLoginhome"/> 
-      </methods>
-      </class>
+      <class name="test.login"/>
     </classes>
-  </test>-->
-  <test name="Regression">
+  </test>
+  <test thread-count="5" name="para loan">
+  
+   <parameter name="URL" value="paraloan.com"/>
+   <parameter name="APIKey/usrname" value="12345"/>
+    <classes>
+      <class name="test.parameters"/>
+    </classes>
+  </test>
+<!--  <test name="Regression">
   <groups>
   <run>
-  <include name="Smoke"/><!-- <exclude name="Smoke"/> -->
+  <include name="Smoke"/> <exclude name="Smoke"/> 
   </run>
   </groups>
+  
   <classes>
   		<class name="test.basics"/>
   		<class name="test.basics2"/>
+  		
   		<class name="test.login"/>
   
   </classes>
-  </test>
-</suite> <!-- Suite -->
+  </test> -->
+</suite> 

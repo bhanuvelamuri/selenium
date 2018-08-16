@@ -3,23 +3,28 @@ package test;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+
 public class login {
-@Test(enabled=true)
+@Test
 public void WebLoginhome() {
 	//selenium
 	System.out.println("WEBLOGIN");
 }
+
 @Test(groups= {"Smoke"})
 public void WebSigninhome() {
 	//selenium
 	System.out.println("Signin");
 }
 @Test
-public void WebSignouthome() {
+public void WebSignouthome() 
+{
 	//selenium
 	System.out.println("Signout");
+
 }
 @Test(groups= {"Smoke"})
 public void MobileLogin() {
