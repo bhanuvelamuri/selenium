@@ -5,6 +5,8 @@ Tools used
 
 1. Selenium 3.0 using web drivers
 2. Java-jdk
+3. TestNG
+4. MAVEN project management tool 
 
 Software used
 
