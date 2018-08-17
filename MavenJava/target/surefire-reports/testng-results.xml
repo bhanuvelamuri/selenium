@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+  <suite name="Command line suite" duration-ms="46" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="41" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+    <test name="Command line test" duration-ms="46" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
       <class name="Qaclickacademy.RestAPITest">
-        <test-method status="PASS" signature="rest()[pri:0, instance:Qaclickacademy.RestAPITest@1560810]" name="rest" duration-ms="0" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="rest()[pri:0, instance:Qaclickacademy.RestAPITest@13fcdbd]" name="rest" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rest -->
-        <test-method status="PASS" signature="soap()[pri:0, instance:Qaclickacademy.RestAPITest@1560810]" name="soap" duration-ms="0" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="soap()[pri:0, instance:Qaclickacademy.RestAPITest@13fcdbd]" name="soap" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- soap -->
       </class> <!-- Qaclickacademy.RestAPITest -->
       <class name="Qaclickacademy.helloworldTest">
-        <test-method status="PASS" signature="world()[pri:0, instance:Qaclickacademy.helloworldTest@13f5a29]" name="world" duration-ms="8" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="world()[pri:0, instance:Qaclickacademy.helloworldTest@1a03464]" name="world" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- world -->
       </class> <!-- Qaclickacademy.helloworldTest -->
       <class name="Qaclickacademy.AppiumTest">
-        <test-method status="PASS" signature="Android()[pri:0, instance:Qaclickacademy.AppiumTest@1a57a3b]" name="Android" duration-ms="0" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="Android()[pri:0, instance:Qaclickacademy.AppiumTest@109b8da]" name="Android" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Android -->
-        <test-method status="PASS" signature="ios()[pri:0, instance:Qaclickacademy.AppiumTest@1a57a3b]" name="ios" duration-ms="0" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="ios()[pri:0, instance:Qaclickacademy.AppiumTest@109b8da]" name="ios" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ios -->
       </class> <!-- Qaclickacademy.AppiumTest -->
       <class name="Qaclickacademy.seleniumTest">
-        <test-method status="PASS" signature="elementsUI()[pri:0, instance:Qaclickacademy.seleniumTest@9d9c55]" name="elementsUI" duration-ms="0" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:Qaclickacademy.seleniumTest@17c74e5]" name="elementsUI" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementsUI -->
-        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Qaclickacademy.seleniumTest@9d9c55]" name="BrowserAutomation" duration-ms="0" started-at="2018-08-17T00:37:47Z" finished-at="2018-08-17T00:37:47Z">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Qaclickacademy.seleniumTest@17c74e5]" name="BrowserAutomation" duration-ms="0" started-at="2018-08-17T03:16:14Z" finished-at="2018-08-17T03:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserAutomation -->
       </class> <!-- Qaclickacademy.seleniumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>
