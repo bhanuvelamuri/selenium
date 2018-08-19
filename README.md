@@ -8,6 +8,7 @@ Tools used
 3. TestNG version-6.10
 4. MAVEN project management tool version-3.5.4
 5. Jenkins Tools version-2.121.3
+6. Log4j 
 
 Software used
 
