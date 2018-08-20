@@ -6,9 +6,9 @@ public class Demo {
 	private static Logger Log= LogManager.getLogger(Demo.class.getName());
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			Log.debug("i am debug");
-			Log.info("object is present");
-			Log.error("object is not present");
-			Log.fatal("this is fatal");
+			Log.debug("i have clicked button");
+			Log.info("button is displayed");
+			Log.error("button is not displayed");
+			Log.fatal("button missing");
 		}
 }

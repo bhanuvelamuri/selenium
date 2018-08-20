@@ -1,0 +1,4 @@
+03:42:11.423 [main] DEBUG logalpha.Demo - i have clicked button
+03:42:11.426 [main] INFO  logalpha.Demo - button is displayed
+03:42:11.426 [main] ERROR logalpha.Demo - button is not displayed
+03:42:11.426 [main] FATAL logalpha.Demo - button missing
