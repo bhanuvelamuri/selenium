@@ -11,6 +11,4 @@ public class Demo {
 			Log.error("object is not present");
 			Log.fatal("this is fatal");
 		}
-	
-
 }
