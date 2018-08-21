@@ -2,3 +2,7 @@
 03:42:11.426 [main] INFO  logalpha.Demo - button is displayed
 03:42:11.426 [main] ERROR logalpha.Demo - button is not displayed
 03:42:11.426 [main] FATAL logalpha.Demo - button missing
+00:51:31.614 [main] DEBUG logalpha.Demo - i have clicked button
+00:51:31.630 [main] INFO  logalpha.Demo - button is displayed
+00:51:31.630 [main] ERROR logalpha.Demo - button is not displayed
+00:51:31.630 [main] FATAL logalpha.Demo - button missing
